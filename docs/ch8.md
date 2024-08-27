@@ -74,7 +74,7 @@ Classes marked with `<I>` are interfaces; those marked with `<DS>` are data stru
 
 The first thing to notice is that all the dependencies are source code dependencies. An arrow pointing from class A to class B means that the source code of class A mentions the name of class B, but class B mentions nothing about class A. Thus, in Figure 8.2, FinancialDataMapper knows about FinancialDataGateway through an implements relationship, but FinancialDataGateway knows nothing at all about FinancialDataMapper.
 
-> 首先，我们在图 8.2 中看到的所有依赖关系都是其源代码中存在的依赖关系。这里，从类 A 指向类 B 的箭头意味着 A 的源代码中涉及了 B，但 是 B 的源代码中并不涉及 A。因此在图 8.2 中，FinancialDataMapper 在实现接口时需要知道 FinancialDataGateway 的实现，而 FinancialDataGateway 则完全知道 FinancialDataMapper 的实现。
+> 首先，我们在图 8.2 中看到的所有依赖关系都是其源代码中存在的依赖关系。这里，从类 A 指向类 B 的箭头意味着 A 的源代码中涉及了 B，但 是 B 的源代码中并不涉及 A。因此在图 8.2 中，FinancialDataMapper 在实现接口时需要知道 FinancialDataGateway 的实现，而 FinancialDataGateway 则完全不知道 FinancialDataMapper 的实现。
 
 The next thing to notice is that each double line is crossed in one direction only. This means that all component relationships are unidirectional, as shown in the component graph in Figure 8.3. These arrows point toward the components that we want to protect from change.
 
