@@ -26,7 +26,7 @@ Let’s examine each of these concepts in turn.
 
 The reason encapsulation is cited as part of the definition of OO is that OO languages provide easy and effective encapsulation of data and function. As a result, a line can be drawn around a cohesive set of data and functions. Outside of that line, the data is hidden and only some of the functions are known. We see this concept in action as the private data members and the public member functions of a class.
 
-> 导致封装这个概念经常被引用为面向对象编程定义的一部分是因为面向对象语言提供了对数据和函数的简单和有效的封装。通过釆用封装特性，我们可以把一组相关联的数据和函数圈起来，便圈外血的代码只能看见部分函数，数据则完全不可见。譬如在实际应用中，类（class）中的公共函数和私有成员变量就是这样。
+> 面向对象编程（OO）之所以将封装作为定义的一部分，是因为OO语言能够轻松有效地封装数据和函数。因此，可以围绕一个具有内聚性的数据信息和函数集划出一条界线。在这条界线之外，数据是隐藏的，只有某些函数是可见的。我们在类的私有数据成员和公共成员函数中看到了这一概念的应用。
 
 This idea is certainly not unique to OO. Indeed, we had perfect encapsulation in C. Consider this simple C program:
 
